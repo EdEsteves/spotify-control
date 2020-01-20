@@ -18,7 +18,7 @@ module.exports = function(){
     .then('routes')
     .into(app);
 
-  app.get('/', function (req, res) {
+  app.get('*', function (req, res) {
     res.sendFile(path.join(__dirname, '../build', 'index.html'));
   });
 
