@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 
 import './styles.scss'
 
@@ -14,7 +15,7 @@ export default class User extends Component {
           <h3 className="user__item-name">{usuario.nome}</h3>
           <p className={"user__item-status " + (usuario.status ? 'valid' : 'invalid')}>Status : <strong>{usuario.status ? 'Ok' : 'Pendente'}</strong> </p>
         </div>
-        <a className="user__item-action" href="#">Ver controle</a>
+        <Link className="user__item-action" to={`/user/${usuario.nome}`}>Ver controle</Link>
       </div>
     )
   }
