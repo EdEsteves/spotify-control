@@ -1,0 +1,24 @@
+.user__list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  &-item{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex: 0 0 50%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    max-width: 260px;
+    background-color: #fff;
+    transition: all .2s ease-in-out;
+    &:hover{
+      transform: scale(1.03);
+    }
+  }
+}
