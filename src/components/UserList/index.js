@@ -16,7 +16,7 @@ export default class UserList extends Component {
   }
 
   loadUsers = async () =>{
-    const response = await api.get(`/v1/controle`)
+    const response = await api.get(`/gb07u`)
 
     const _usuarios = response.data;
 
