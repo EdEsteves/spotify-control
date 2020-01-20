@@ -19,7 +19,7 @@ api.controle = function(req, res){
         {"dezembro": ""}
       ],
       "status": true,
-      "avatar": 'avatar-camile.jpg'
+      "avatar": "avatar-camile.jpg"
     },
     {
       "nome": "Eduardo",
@@ -38,7 +38,7 @@ api.controle = function(req, res){
         {"dezembro": "pago"}
       ],
       "status": true,
-      "avatar": 'avatar-eduardo.jpg'
+      "avatar": "avatar-eduardo.jpg"
     },
     {
       "nome": "Géssica",
@@ -57,7 +57,7 @@ api.controle = function(req, res){
         {"dezembro": ""}
       ],
       "status": true,
-      "avatar": 'avatar-gessica.jpg'
+      "avatar": "avatar-gessica.jpg"
     },
     {
       "nome": "Gisele",
@@ -75,8 +75,8 @@ api.controle = function(req, res){
         {"novembro": "pago"},
         {"dezembro": "pago"}
       ],
-      "status": "Em dia",
-      "avatar": 'avatar-gisele.jpg'
+      "status": true,
+      "avatar": "avatar-gisele.jpg"
     },
     {
       "nome": "Iago",
@@ -95,7 +95,7 @@ api.controle = function(req, res){
         {"dezembro": ""}
       ],
       "status": true,
-      "avatar": 'avatar-iago.jpg'
+      "avatar": "avatar-iago.jpg"
     },
     {
       "nome": "Victor",
@@ -114,8 +114,8 @@ api.controle = function(req, res){
         {"dezembro": ""}
       ],
       "status": true,
-      "avatar": 'avatar-victor.jpg'
-    },
+      "avatar": "avatar-victor.jpg"
+    }
   ]
 
   res.json(controle);
