@@ -3,118 +3,257 @@ var api = {}
 api.controle = function(req, res){
   var controle = [
     {
-      "nome": "Camile",
+      "nome": "camile",
       "meses": [
-        {"janeiro": "pago"},
-        {"fevereiro": "pago"},
-        {"março": "pago"},
-        {"abril": "pago"},
-        {"maio": "pago"},
-        {"junho": ""},
-        {"julho": ""},
-        {"agosto": ""},
-        {"setembro": ""},
-        {"outubro": ""},
-        {"novembro": ""},
-        {"dezembro": ""}
+        {
+          "janeiro": "pago"
+        },
+        {
+          "fevereiro": "pago"
+        },
+        {
+          "março": "pago"
+        },
+        {
+          "abril": "pago"
+        },
+        {
+          "maio": "pago"
+        },
+        {
+          "junho": ""
+        },
+        {
+          "julho": ""
+        },
+        {
+          "agosto": ""
+        },
+        {
+          "setembro": ""
+        },
+        {
+          "outubro": ""
+        },
+        {
+          "novembro": ""
+        },
+        {
+          "dezembro": ""
+        }
       ],
-      "status": true,
-      "avatar": "avatar-camile.jpg"
+      "status": true
     },
     {
-      "nome": "Eduardo",
+      "nome": "eduardo",
       "meses": [
-        {"janeiro": "pago"},
-        {"fevereiro": "pago"},
-        {"março": "pago"},
-        {"abril": "pago"},
-        {"maio": "pago"},
-        {"junho": "pago"},
-        {"julho": "pago"},
-        {"agosto": "pago"},
-        {"setembro": "pago"},
-        {"outubro": "pago"},
-        {"novembro": "pago"},
-        {"dezembro": "pago"}
+        {
+          "janeiro": "pago"
+        },
+        {
+          "fevereiro": "pago"
+        },
+        {
+          "março": "pago"
+        },
+        {
+          "abril": "pago"
+        },
+        {
+          "maio": "pago"
+        },
+        {
+          "junho": "pago"
+        },
+        {
+          "julho": "pago"
+        },
+        {
+          "agosto": "pago"
+        },
+        {
+          "setembro": "pago"
+        },
+        {
+          "outubro": "pago"
+        },
+        {
+          "novembro": "pago"
+        },
+        {
+          "dezembro": "pago"
+        }
       ],
-      "status": true,
-      "avatar": "avatar-eduardo.jpg"
+      "status": true
     },
     {
-      "nome": "Géssica",
+      "nome": "gessica",
       "meses": [
-        {"janeiro": ""},
-        {"fevereiro": ""},
-        {"março": ""},
-        {"abril": ""},
-        {"maio": ""},
-        {"junho": ""},
-        {"julho": ""},
-        {"agosto": ""},
-        {"setembro": ""},
-        {"outubro": ""},
-        {"novembro": ""},
-        {"dezembro": ""}
+        {
+          "janeiro": ""
+        },
+        {
+          "fevereiro": ""
+        },
+        {
+          "março": ""
+        },
+        {
+          "abril": ""
+        },
+        {
+          "maio": ""
+        },
+        {
+          "junho": ""
+        },
+        {
+          "julho": ""
+        },
+        {
+          "agosto": ""
+        },
+        {
+          "setembro": ""
+        },
+        {
+          "outubro": ""
+        },
+        {
+          "novembro": ""
+        },
+        {
+          "dezembro": ""
+        }
       ],
-      "status": true,
-      "avatar": "avatar-gessica.jpg"
+      "status": true
     },
     {
-      "nome": "Gisele",
+      "nome": "gisele",
       "meses": [
-        {"janeiro": "pago"},
-        {"fevereiro": "pago"},
-        {"março": "pago"},
-        {"abril": "pago"},
-        {"maio": "pago"},
-        {"junho": "pago"},
-        {"julho": "pago"},
-        {"agosto": "pago"},
-        {"setembro": "pago"},
-        {"outubro": "pago"},
-        {"novembro": "pago"},
-        {"dezembro": "pago"}
+        {
+          "janeiro": "pago"
+        },
+        {
+          "fevereiro": "pago"
+        },
+        {
+          "março": "pago"
+        },
+        {
+          "abril": "pago"
+        },
+        {
+          "maio": "pago"
+        },
+        {
+          "junho": "pago"
+        },
+        {
+          "julho": "pago"
+        },
+        {
+          "agosto": "pago"
+        },
+        {
+          "setembro": "pago"
+        },
+        {
+          "outubro": "pago"
+        },
+        {
+          "novembro": "pago"
+        },
+        {
+          "dezembro": "pago"
+        }
       ],
       "status": true,
       "avatar": "avatar-gisele.jpg"
     },
     {
-      "nome": "Iago",
+      "nome": "iago",
       "meses": [
-        {"janeiro": ""},
-        {"fevereiro": ""},
-        {"março": ""},
-        {"abril": ""},
-        {"maio": ""},
-        {"junho": ""},
-        {"julho": ""},
-        {"agosto": ""},
-        {"setembro": ""},
-        {"outubro": ""},
-        {"novembro": ""},
-        {"dezembro": ""}
+        {
+          "janeiro": ""
+        },
+        {
+          "fevereiro": ""
+        },
+        {
+          "março": ""
+        },
+        {
+          "abril": ""
+        },
+        {
+          "maio": ""
+        },
+        {
+          "junho": ""
+        },
+        {
+          "julho": ""
+        },
+        {
+          "agosto": ""
+        },
+        {
+          "setembro": ""
+        },
+        {
+          "outubro": ""
+        },
+        {
+          "novembro": ""
+        },
+        {
+          "dezembro": ""
+        }
       ],
-      "status": true,
-      "avatar": "avatar-iago.jpg"
+      "status": true
     },
     {
-      "nome": "Victor",
+      "nome": "victor",
       "meses": [
-        {"janeiro": ""},
-        {"fevereiro": ""},
-        {"março": ""},
-        {"abril": ""},
-        {"maio": ""},
-        {"junho": ""},
-        {"julho": ""},
-        {"agosto": ""},
-        {"setembro": ""},
-        {"outubro": ""},
-        {"novembro": ""},
-        {"dezembro": ""}
+        {
+          "janeiro": ""
+        },
+        {
+          "fevereiro": ""
+        },
+        {
+          "março": ""
+        },
+        {
+          "abril": ""
+        },
+        {
+          "maio": ""
+        },
+        {
+          "junho": ""
+        },
+        {
+          "julho": ""
+        },
+        {
+          "agosto": ""
+        },
+        {
+          "setembro": ""
+        },
+        {
+          "outubro": ""
+        },
+        {
+          "novembro": ""
+        },
+        {
+          "dezembro": ""
+        }
       ],
-      "status": true,
-      "avatar": "avatar-victor.jpg"
+      "status": true
     }
   ]
 
