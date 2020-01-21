@@ -1,15 +1,25 @@
 .user__item{
   &-img{
-    width: 60px;
-    flex: 0 0 20%;
-    margin-right: 10px;
+    width: 80px;
     border-radius: 50%;
+    margin-bottom: 10px;
+    @media screen and (min-width: 1024px){ //desktop and above
+      width: 60px;
+      flex: 0 0 20%;
+      margin-bottom: 0;
+      margin-right: 10px;
+    }
   }
   &-infos{
-    flex: 0 0 70%;
+    align-self: flex-start;
+    @media screen and (min-width: 1024px){ //desktop and above
+      align-self: auto;
+      flex: 0 0 70%;
+    }
   }
   &-name{
     margin: 0;
+    text-transform: capitalize;
   }
   &-status{
     margin: 10px 0 0;

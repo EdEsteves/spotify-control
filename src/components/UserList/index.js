@@ -29,7 +29,7 @@ export default class UserList extends Component {
     return (
       <div className="user__list">
         {usuarios.map(usuario => (
-          <User usuario={usuario}/>
+          <User key={usuario.nome}  usuario={usuario}/>
         ))}
       </div>
     )

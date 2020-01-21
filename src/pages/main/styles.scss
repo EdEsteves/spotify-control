@@ -1,3 +1,8 @@
 .user__container{
   padding: 15px;
+
+  @media screen and (min-width: 1024px){ //desktop and above
+    max-width: 1005px;
+    margin: 0 auto;
+  }
 }

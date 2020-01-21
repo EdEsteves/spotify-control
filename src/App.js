@@ -1,7 +1,7 @@
 import React from 'react';
 import Routes from './routes';
 
-import Main from './pages/main';
+import Main from './pages/Main';
 import Header from './components/Header';
 
 import './styles.scss'
