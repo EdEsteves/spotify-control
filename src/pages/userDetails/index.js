@@ -3,7 +3,7 @@ import Month from '../../components/Month'
 
 import './styles.scss';
 
-export default class Details extends Component {
+export default class UserDetails extends Component {
   render(){
     const { meses } = this.props.location.state
     const { nome } = this.props.match.params

@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import { BrowserRouter, Switch, Route} from 'react-router-dom'
 
 import Main from './pages/main'
-import Details from './pages/details'
+import UserDetails from './pages/userDetails'
 
 export default class  Routes extends Component {
 
@@ -12,7 +12,7 @@ export default class  Routes extends Component {
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Main} />
-          <Route path="/user/:nome" component={Details} />
+          <Route path="/user/:nome" component={UserDetails} />
         </Switch>
       </BrowserRouter>
     )
