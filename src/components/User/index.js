@@ -23,6 +23,7 @@ import './styles.scss'
 //   }
 // }
 
+
 const User = ({ usuario } = this.props) => (
   <div className="user__list-item">
     <div className="user__card user__item">
@@ -32,7 +33,7 @@ const User = ({ usuario } = this.props) => (
           <h3 className="user__item-name">{usuario.nome}</h3>
           <p className={"user__item-status " + (usuario.status ? 'valid' : 'invalid')}>Status : <strong>{usuario.status ? 'Ok' : 'Pendente'}</strong> </p>
         </div>
-        <FlipButton text="Ver detalhes" />
+        <FlipButton data={{id: 'details__' + usuario.nome, text: 'Ver detalhes'}} />
         {/* <Link className="user__item-action" to={{pathname: `/user/${usuario.nome}`, state: {meses : [usuario.meses]}}}>Ver controle</Link> */}
       </div>
       <div className="user__card-back">
@@ -42,7 +43,7 @@ const User = ({ usuario } = this.props) => (
             <Month key={Object.keys(mes)} mes={mes} />
           ))}
         </ul>
-        <FlipButton text="Voltar" />
+        <FlipButton data={{id: 'back', text: 'Voltar'}} />
       </div>
     </div>
   </div>
