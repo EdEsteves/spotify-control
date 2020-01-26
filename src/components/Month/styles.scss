@@ -1,0 +1,14 @@
+.month{
+  display: flex;
+  flex: 0 0 50%;
+  margin-bottom: 4px;
+  justify-content: flex-start;
+  align-items: center;
+  h3{
+    margin: 0;
+  }   
+  span{
+    margin-left: 5px;
+    text-transform: capitalize;
+  }
+}

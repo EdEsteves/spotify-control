@@ -1,0 +1,19 @@
+.btn{
+  &__flip{
+    text-decoration: none;
+    color: #1db954;
+    border: 2px solid #1db954;
+    width: 100%;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 0;
+    margin-top: 10px;
+    transition: all .3s;
+    background: #fff;
+    &:hover{
+      background: #1db954;
+      color: #fff;
+    }
+  }
+}

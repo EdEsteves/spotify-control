@@ -9,6 +9,7 @@
   }
   &-item{
     width: 200px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,6 +29,12 @@
     }
     &:hover{
       transform: scale(1.03);
+    }
+    perspective: 1000px;
+    &.js-active{
+      .user__card{
+        transform: rotateY(180deg);
+      }
     }
   }
 }

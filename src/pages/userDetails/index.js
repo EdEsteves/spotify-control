@@ -6,8 +6,8 @@ import './styles.scss';
 export default class UserDetails extends Component {
   render(){
     const { meses } = this.props.location.state
-    const { nome } = this.props.match.params
-    console.log(meses[0])
+    
+    
     return(
       <div className="months__container">
         <div className="months__user-info"></div>
