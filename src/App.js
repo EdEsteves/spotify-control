@@ -24,6 +24,10 @@ class App extends Component {
     })
   }
 
+  componentWillUnmount(){
+    base.removeBinding(this.ref);
+  }
+
   render(){
     const { loading } = this.state;
     return (
