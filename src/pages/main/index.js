@@ -9,7 +9,7 @@ export default class Main extends Component {
   render(){
     return (
       <div className="user__container">
-        <UserList />
+        <UserList control={this.props.control} />
       </div>
     )
   }

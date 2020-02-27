@@ -1,255 +1,106 @@
-[
-  {
-    "nome": "camile",
-    "meses": [
-      {
-        "janeiro": "pago"
+{
+  "2020" : {
+    "Camile" : {
+      "meses": {
+        "1": "pago",
+        "2": "pago",
+        "3": "pago",
+        "4": "pago",
+        "5": "pago",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": "",
+        "11": "",
+        "12": ""
+      },
+      "status": true
+    },
+    "Eduardo" : {
+      "meses": {
+        "1": "Pago",
+        "2": "Pago",
+        "3": "Pago",
+        "4": "Pago",
+        "5": "Pago",
+        "6": "Pago",
+        "7": "Pago",
+        "8": "Pago",
+        "9": "Pago",
+        "10": "Pago",
+        "11": "Pago",
+        "12": "Pago"
+      },
+      "status": true
+    },
+    "Gessica" : {
+      "meses": {
+        "1": "Pago",
+        "2": "Pago",
+        "3": "Pago",
+        "4": "Pago",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": "",
+        "11": "",
+        "12": ""
+      },
+      "status": true
+    },
+    "Gisele" : {
+      "meses": {
+        "1": "Pago",
+        "2": "Pago",
+        "3": "Pago",
+        "4": "Pago",
+        "5": "Pago",
+        "6": "Pago",
+        "7": "Pago",
+        "8": "Pago",
+        "9": "Pago",
+        "10": "Pago",
+        "11": "Pago",
+        "12": "Pago"
+      },
+      "status": true
+    },
+    "Iago" : {
+      "meses": {
+        "1": "Pago",
+        "2": "Pendete",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": "",
+        "11": "",
+        "12": ""
+      },
+      "status": false
+    },
+    "Victor" : {
+      "meses": {
+        "1": "Pago",
+        "2": "Pago",
+        "3": "Pago",
+        "4": "",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": "",
+        "11": "",
+        "12": ""
       },
-      {
-        "fevereiro": "pago"
-      },
-      {
-        "março": "pago"
-      },
-      {
-        "abril": "pago"
-      },
-      {
-        "maio": "pago"
-      },
-      {
-        "junho": ""
-      },
-      {
-        "julho": ""
-      },
-      {
-        "agosto": ""
-      },
-      {
-        "setembro": ""
-      },
-      {
-        "outubro": ""
-      },
-      {
-        "novembro": ""
-      },
-      {
-        "dezembro": ""
-      }
-    ],
-    "status": true
-  },
-  {
-    "nome": "eduardo",
-    "meses": [
-      {
-        "janeiro": "pago"
-      },
-      {
-        "fevereiro": "pago"
-      },
-      {
-        "março": "pago"
-      },
-      {
-        "abril": "pago"
-      },
-      {
-        "maio": "pago"
-      },
-      {
-        "junho": "pago"
-      },
-      {
-        "julho": "pago"
-      },
-      {
-        "agosto": "pago"
-      },
-      {
-        "setembro": "pago"
-      },
-      {
-        "outubro": "pago"
-      },
-      {
-        "novembro": "pago"
-      },
-      {
-        "dezembro": "pago"
-      }
-    ],
-    "status": true
-  },
-  {
-    "nome": "gessica",
-    "meses": [
-      {
-        "janeiro": ""
-      },
-      {
-        "fevereiro": ""
-      },
-      {
-        "março": ""
-      },
-      {
-        "abril": ""
-      },
-      {
-        "maio": ""
-      },
-      {
-        "junho": ""
-      },
-      {
-        "julho": ""
-      },
-      {
-        "agosto": ""
-      },
-      {
-        "setembro": ""
-      },
-      {
-        "outubro": ""
-      },
-      {
-        "novembro": ""
-      },
-      {
-        "dezembro": ""
-      }
-    ],
-    "status": true
-  },
-  {
-    "nome": "gisele",
-    "meses": [
-      {
-        "janeiro": "pago"
-      },
-      {
-        "fevereiro": "pago"
-      },
-      {
-        "março": "pago"
-      },
-      {
-        "abril": "pago"
-      },
-      {
-        "maio": "pago"
-      },
-      {
-        "junho": "pago"
-      },
-      {
-        "julho": "pago"
-      },
-      {
-        "agosto": "pago"
-      },
-      {
-        "setembro": "pago"
-      },
-      {
-        "outubro": "pago"
-      },
-      {
-        "novembro": "pago"
-      },
-      {
-        "dezembro": "pago"
-      }
-    ],
-    "status": true,
-    "avatar": "avatar-gisele.jpg"
-  },
-  {
-    "nome": "iago",
-    "meses": [
-      {
-        "janeiro": ""
-      },
-      {
-        "fevereiro": ""
-      },
-      {
-        "março": ""
-      },
-      {
-        "abril": ""
-      },
-      {
-        "maio": ""
-      },
-      {
-        "junho": ""
-      },
-      {
-        "julho": ""
-      },
-      {
-        "agosto": ""
-      },
-      {
-        "setembro": ""
-      },
-      {
-        "outubro": ""
-      },
-      {
-        "novembro": ""
-      },
-      {
-        "dezembro": ""
-      }
-    ],
-    "status": true
-  },
-  {
-    "nome": "victor",
-    "meses": [
-      {
-        "janeiro": ""
-      },
-      {
-        "fevereiro": ""
-      },
-      {
-        "março": ""
-      },
-      {
-        "abril": ""
-      },
-      {
-        "maio": ""
-      },
-      {
-        "junho": ""
-      },
-      {
-        "julho": ""
-      },
-      {
-        "agosto": ""
-      },
-      {
-        "setembro": ""
-      },
-      {
-        "outubro": ""
-      },
-      {
-        "novembro": ""
-      },
-      {
-        "dezembro": ""
-      }
-    ],
-    "status": true
+      "status": true
+    }
   }
-]
+}
