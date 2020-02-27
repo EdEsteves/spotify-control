@@ -13,7 +13,7 @@ export default class User extends Component {
     <div className="user__list-item">
       <div className="user__card user__item">
         <div className="user__card-front">
-          <img alt={'avatar de '+control} className="user__item-img" src={process.env.PUBLIC_URL + 'avatar-' + index + '.jpg'}></img>
+          <img alt={'avatar de '+index} className="user__item-img" src={process.env.PUBLIC_URL + 'avatar-' + index.toLowerCase() + '.jpg'}></img>
           <div className="user__item-infos">
             <h3 className="user__item-name">{index}</h3>
             <p className={"user__item-status " + (control.status ? 'valid' : 'invalid')}>Status : <strong>{control.status ? 'Ok' : 'Pendente'}</strong> </p>
